@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "backrooms"
+version = "${version}"
+displayName = "Backrooms"
+authors = "Corgi Taco"
+description = '''
+Backrooms
+'''
+#logoFile = ""
+
+[[dependencies.backrooms]]
+modId = "forge"
+mandatory = true
+versionRange = "[47.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.backrooms]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1]"
+ordering = "NONE"
+side = "BOTH"

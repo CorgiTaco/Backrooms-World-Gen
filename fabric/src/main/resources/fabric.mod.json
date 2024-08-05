@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "backrooms",
+  "version": "${version}",
+  "name": "Backrooms",
+  "description": "Backrooms",
+  "authors": [
+    "Corgi Taco"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/examplemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.corgitaco.backrooms.fabric.BackroomsFabric"
+    ]
+  },
+  "mixins": [
+    "backrooms.mixins.json",
+    "backrooms-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.1"
+  }
+}
